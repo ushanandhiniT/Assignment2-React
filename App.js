@@ -1,22 +1,20 @@
-import React from 'react'
+import React, { Component } from 'react'
 import "./styles.css"
-import Header from "./Header"
-import TrendingPost from "./TrendingPost"
-import Blogcards from "./Blogcards"
+import Header from './Header'
+import TrendingPost from './TrendingPost'
 
 
-function App() {
-  return(
-    <div>
-      <Header />
-      <div className='TrendingPost'>
+export class App extends Component {
 
+  render() {
+    return (
+      <div>
+
+        <Header />
+        <TrendingPost />
       </div>
-      <div className='Blogcards'>
-
-      </div>
-    </div>
-  )
+    )
+  }
 }
 
 export default App
