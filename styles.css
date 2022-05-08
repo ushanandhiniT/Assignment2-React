@@ -1,131 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;0,900;1,500;1,600;1,900&display=swap');
 
-.header{
-    padding: 16px 78px;
-    background-color:fff;
-    box-shadow:0px 1px 1pc #ccc;
-    Cursor: pointer;
-    margin-right:-10px;
-    margin-top:-10px;
-    margin-left:-10px;
-    }
-  
-  #logo{
-    width: 130px;
-    font-size: 32px;
-    color: #0084ff
-  }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200;1,300&display=swap');
-  
-  #logo-stories{
-    font-size: 20px;
+header{
+  box-shadow: rgb(204, 204, 204) 0px 1px 1px 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+
+body{
+  margin: 0px;
+  font-family : Raleway, sans-serif;
+  background: #efefef;
+}
+
+.dropdown{
+font-size: 20px;
+padding-left: 5px;
+}
+
+#left-header-section{
+  display: flex;
+  margin-left: 70px;
+  width: 30%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+main{
+  width: 70%;
+  margin: 30px auto;
+}
+
+.filter-all{
+  /* From styles */
+  width: auto;
+    font-size: .75em;
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    color: #fff;
+}
+
+#filter-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-name{
+  width: auto;
+    font-size: .75em;
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.filter-name:hover{
+  background: linear-gradient(269deg,#0048ff,#0096ff);
+  color: #fff;
+}
+
+.LatestPosts__LatestPostHeading__1-yOc{
+  width: fit-content;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
-  }
+    font-family: Raleway,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: -.6px;
+    text-align: left;
+    color: #000;
+}
+
+#stories{
+
+  /* From styles  */
+  font-size : 16px;
+font-stretch : 100%;
+font-style : italic;
+font-weight  : 500;
+height : 12.8px;
+letter-spacing : 0.9px;
+line-height : 12.8px;
+color : rgb(0, 0, 0);
+cursor : pointer;
+display : block;
+font-family : Raleway, sans-serif;
+}
+
+#logo{
+  /* OWn  */
+font-size: 32px;
+font-weight: 1000;
+color: #0084ff;
+}
+
+
+
+#right-header-section{
+  display: flex;
+  margin-right: 80px;
+  width: 35%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#button{
+    font-size : 12px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    padding: 15px 20px;
+    color: #fff;
+    outline: none;
+    font-family: Raleway,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: .03em;
+    background: #0084ff;
+    background: -webkit-linear-gradient(269deg,#0048ff,#0096ff);
+    background: -webkit-linear-gradient(181deg,#0048ff,hsl(205, 100%, 50%));
+    background: -o-linear-gradient(181deg,#0048ff,#0096ff);
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+}
+
+.BlogNavigationLinks__EdyodaText__11wl2{
+  /* Site  */
+  min-width: 23em;
+    opacity: .6;
+    font-family: Raleway,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: .4px;
+    text-align: left;
+    color: rgba(0,0,0,.6);
+    margin-top: 0.5em;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+.title {
+	margin: 0;
+	text-align: left;
+  font-weight:600;
+	font-size: 18px;
+	text-transform: capitalize;
+  padding:10px 24px;
+}
+
+.author{
+  padding:10px 24px;
+  color: #0096ff;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500
+}
+
+.text{
+  line-height:1.43;
+  padding:10px 24px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 1px 0px;
+  color: #ABB2B9;
+}
+
+#blog-card-wrapper{
+  width: calc(33% - 16px - 16px);
   
-  #categories{
-    
-    border:0px;
-    background-color:#FDFEFE;
-    font-size:16px;
-    Cursor: pointer;
-    padding-top:10px;
-    
-    }
-  
-  #icon{
-     padding-top:0px;
-    padding-left:8px;
-  }
-  .drop-down{
-    color:#909497;
-    
-  }
-  
-  .head-trend{
-    color:#000;
-    font-size:30px;
-    margin-left:250px;
-    
-  }
-  
-  .filter-category{
-    border:0px;
-    background-color:#FDFEFE;
-    margin-bottom:20px;
-    font-size:16px;
-    padding-top:0px;
-    margin-left:240px;
-  }
-  
-  #icon-cate{
-    padding:10px;
-    color:#3498DB;
-    
-  }
-  
-  #c-c{
-    margin:0px;
-    margin-left:250px;
-  }
-  .Categories-container{
-   border-radius:15px;
-   padding:6px 14px;
-   width:auto;
-   color:#0084ff;
-   border:1px solid #0084ff;
-   margin:5px;
-   Cursor: pointer;
-   background-color:#FDFEFE;
-  }
-  
-  .img-wrapper {
-      width: calc(33% - 16px - 16px);
-    
-      background-color: white;
-      margin: 16px;
-      border-radius: 6px;	
-      box-shadow: 0 0 12px #ccc;
-      display: inline-block;
-  }
-  
-  .thumbnail {
-    width: 100%;
-    height: 100%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-  }
-  
-  .title {
-      margin: 0;
-      text-align: left;
-    font-weight:600;
-      font-size: 18px;
-      text-transform: capitalize;
-    padding:10px 24px;
-  }
-  
-  .author{
-    padding:10px 24px;
-    color: #0096ff;
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 500
-  }
-  
-  .text{
-    line-height:1.43;
-    padding:10px 24px;
-    font-size: 14px;
-    font-weight: 400;
-    margin: 1px 0px;
-    color: #ABB2B9;
-  }
-  
-  .footer{
-    background-color:#172146;
-    padding:80px 16%;
-  }
+	background-color: white;
+	margin: 16px;
+	border-radius: 6px;	
+	box-shadow: 0 0 12px #ccc;
+	display: inline-block;
+}
+
+.blog-image {
+  width: 100%;
+  height: 100%;
+  display:block;
+  margin-left:auto;
+  margin-rght:auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
